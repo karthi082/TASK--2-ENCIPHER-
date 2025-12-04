@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Tasks Combined - Improved</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        figure, section, dl, ol, div, header, p {
+            margin-bottom: 25px;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 25px;
+        }
+
+        .gallery div {
+            text-align: center;
+        }
+
+        .product-card {
+            width: 240px;
+            border: 1px solid #777;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 10px 0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .header nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .header nav a:hover {
+            color: #0077cc;
+        }
+
+        .tour-list img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        ol, dl {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>All HTML Tasks Combined</h1>
+
+    <!-- 1. Image with figure & figcaption -->
+    <figure>
+        <img src="https://via.placeholder.com/200" alt="Sample Image">
+        <figcaption>This is an example caption.</figcaption>
+    </figure>
+
+    <!-- 2. Profile UI -->
+    <section>
+        <img src="https://via.placeholder.com/120" alt="Profile Photo">
+        <h2><strong>John Doe</strong></h2>
+        <p><em>A passionate web developer learning step by step.</em></p>
+    </section>
+
+    <!-- 3. Ordered list -->
+    <h3>Steps to Upload an Image</h3>
+    <ol>
+        <li>Click on the <mark>Upload</mark> button.</li>
+        <li>Select the <mark>Image File</mark>.</li>
+        <li>Choose correct <mark>Folder</mark>.</li>
+        <li>Wait for preview.</li>
+        <li>Click Confirm.</li>
+    </ol>
+
+    <!-- 4. Description list: image formats -->
+    <dl>
+        <dt><b>JPEG</b></dt>
+        <dd>Used for photos; small size.</dd>
+
+        <dt><b>PNG</b></dt>
+        <dd>Supports transparency; high quality.</dd>
+
+        <dt><b>SVG</b></dt>
+        <dd>Vector format used for icons.</dd>
+    </dl>
+
+    <!-- 5. Clickable image -->
+    <a href="https://example.com">
+        <img src="https://via.placeholder.com/150" alt="Clickable Image">
+    </a>
+
+    <!-- 6. Product card -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Product">
+        <p><strong>Smart Watch</strong></p>
+        <p>Price: <em>$99</em></p>
+    </div>
+
+    <!-- 7. Roman numeral list -->
+    <ol type="I">
+        <li>Become a Full Stack Developer</li>
+        <li>Crack Interview</li>
+        <li>Create Projects</li>
+        <li>Learn New Tech</li>
+        <li>Practice DSA</li>
+    </ol>
+
+    <!-- 8. Description list: HTML tags -->
+    <dl>
+        <dt><b>div</b></dt>
+        <dd>Block element for layout.</dd>
+
+        <dt><b>span</b></dt>
+        <dd>Inline element for styling text.</dd>
+
+        <dt><b>header</b></dt>
+        <dd>Top section of webpage.</dd>
+    </dl>
+
+    <!-- 9. Custom size image -->
+    <img src="https://via.placeholder.com/300" width="180" height="120">
+
+    <!-- 10. Two-column layout -->
+    <div class="two-column">
+        <img src="https://via.placeholder.com/150">
+        <p>This is a <b>simple</b> two-column layout made with <strong>HTML</strong> and <i>CSS</i>.</p>
+    </div>
+
+    <!-- 11. Tourist places -->
+    <ol class="tour-list">
+        <li><img src="https://via.placeholder.com/40"> Taj Mahal</li>
+        <li><img src="https://via.placeholder.com/40"> Eiffel Tower</li>
+        <li><img src="https://via.placeholder.com/40"> Statue of Liberty</li>
+        <li><img src="https://via.placeholder.com/40"> Great Wall of China</li>
+        <li><img src="https://via.placeholder.com/40"> Colosseum</li>
+    </ol>
+
+    <!-- 12. Students list -->
+    <dl>
+        <dt><b>Arun</b></dt>
+        <dd>Very good in Java and Python.</dd>
+
+        <dt><b>Meena</b></dt>
+        <dd>Creative designer and editor.</dd>
+
+        <dt><b>Karthik</b></dt>
+        <dd>Excellent in DSA and problem solving.</dd>
+    </dl>
+
+    <!-- 13. Header UI -->
+    <header class="header">
+        <img src="https://via.placeholder.com/60" alt="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <!-- 14. Image + formatted paragraph -->
+    <img src="https://via.placeholder.com/250">
+    <p>
+        This picture shows a <b>beautiful</b> moment with <strong>vibrant</strong> colors and an <i>amazing</i> view.
+    </p>
+
+    <!-- 15. Gallery -->
+    <div class="gallery">
+        <div>
+            <img src
