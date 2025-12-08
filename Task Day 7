@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Day 7 - All Tasks Combined (New Examples)</title>
+</head>
+<body>
+
+<h1>Task Day 7 - All Tasks Combined</h1>
+<hr>
+
+<!-- Task 1: Blog Homepage Using Semantic Tags -->
+<h2>Task 1: Blog Homepage</h2>
+<header>
+    <h1>Urban Vibes Blog</h1>
+    <p>Tech • Travel • Lifestyle</p>
+</header>
+<nav>
+    Home | Tech | Travel | Lifestyle | Contact
+</nav>
+
+<main>
+    <section>
+        <h3>Featured Story</h3>
+        <article>
+            <h4>A Morning in the Metro City</h4>
+            <p>Experience the energy of city life from sunrise.</p>
+        </article>
+    </section>
+
+    <section>
+        <h3>Recent Posts</h3>
+        <article>
+            <h4>Top 5 Budget Gadgets</h4>
+            <p>Affordable picks for students.</p>
+        </article>
+        <article>
+            <h4>Hidden Coffee Spots</h4>
+            <p>Quiet places to relax and work.</p>
+        </article>
+    </section>
+
+    <aside>
+        <h3>About Me</h3>
+        <p>Tech lover and casual blogger exploring city stories.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2025 Urban Vibes Blog</p>
+</footer>
+
+<hr>
+
+<!-- Task 2: Video Gallery -->
+<h2>Task 2: Video Gallery</h2>
+<section>
+    <article>
+        <h3>Animated Short Clip</h3>
+        <video controls width="320">
+            <source src="https://www.w3schools.com/html/movie.mp4">
+        </video>
+    </article>
+
+    <article>
+        <h3>Water Fountain Slow-motion</h3>
+        <video controls width="320">
+            <source src="https://filesamples.com/samples/video/mp4/sample_640x360.mp4">
+        </video>
+    </article>
+</section>
+
+<hr>
+
+<!-- Task 3: Music Player Page -->
+<h2>Task 3: Music Player</h2>
+<header>
+    <h3>My Music Hub</h3>
+</header>
+
+<section>
+    <h4>Now Playing</h4>
+    <article>
+        <p>Calm Piano Theme</p>
+        <audio controls>
+            <source src="https://www2.cs.uic.edu/~i101/SoundFiles/ImperialMarch60.wav">
+        </audio>
+    </article>
+</section>
+
+<aside>
+    <h4>Playlist</h4>
+    <ul>
+        <li>Calm Piano Theme</li>
+        <li>Soft Guitar Loop</li>
+    </ul>
+</aside>
+
+<hr>
+
+<!-- Task 4: Education Homepage -->
+<h2>Task 4: Education Homepage</h2>
+<header>
+    <h1>BrightFuture Institute</h1>
+</header>
+
+<nav>
+    Home | Departments | Gallery | Contact
+</nav>
+
+<section>
+    <h3>About Us</h3>
+    <p>We offer future-ready courses and modern labs.</p>
+</section>
+
+<section>
+    <h3>Campus Intro Video</h3>
+    <video controls width="360">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+    </video>
+</section>
+
+<aside>
+    <h3>Upcoming Event</h3>
+    <p>AI Workshop on Sunday.</p>
+</aside>
+
+<hr>
+
+<!-- Task 5: News Portal -->
+<h2>Task 5: News Portal</h2>
+<header>
+    <h1>City Update News</h1>
+</header>
+
+<section>
+    <h3>Headlines</h3>
+    <article>
+        <h4>New Library Opened</h4>
+        <p>Students celebrate a modern reading space.</p>
+    </article>
+    <article>
+        <h4>Rain Expected This Week</h4>
+        <p>Weather department issues light rainfall alert.</p>
+    </article>
+</section>
+
+<section>
+    <h3>Live News Feed</h3>
+    <iframe src="https://edition.cnn.com" width="600" height="300"></iframe>
+</section>
+
+<aside>
+    <h3>Opinion</h3>
+    <article>
+        <h4>Why Public Libraries Matter</h4>
+        <p>They encourage learning and creativity.</p>
+    </article>
+</aside>
+
+<hr>
+
+<!-- Task 6: Travel Website - City Guide -->
+<h2>Task 6: Travel City Guide</h2>
+<header>
+    <h1>Osaka City Guide</h1>
+</header>
+
+<nav>
+    Overview | Attractions | Food
+</nav>
+
+<section>
+    <h3>Overview</h3>
+    <p>A bustling Japanese city known for culture and food.</p>
+</section>
+
+<section>
+    <h3>Must-Visit Places</h3>
+    <article>
+        <h4>Osaka Castle</h4>
+        <p>Historic architecture surrounded by gardens.</p>
+    </article>
+    <article>
+        <h4>Dotonbori Street</h4>
+        <p>Famous for neon signs and street food.</p>
+    </article>
+</section>
+
+<section>
+    <h3>City View</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Osaka_Castle_02bs3200.jpg" height="180" alt="Osaka">
+</section>
+
+<aside>
+    <h3>Travel Tip</h3>
+    <p>Try Takoyaki — Osaka's popular snack.</p>
+</aside>
+
+<hr>
+
+<!-- Task 7: Job Application Page -->
+<h2>Task 7: Job Application</h2>
+<section>
+    <form enctype="multipart/form-data">
+        <label>Full Name<br>
+            <input type="text">
+        </label><br><br>
+
+        <label>Email<br>
+            <input type="email">
+        </label><br><br>
+
+        <label>Job Role<br>
+            <input type="text">
+        </label><br><br>
+
+        <label>Upload Resume<br>
+            <input type="file" accept=".pdf,.doc,.docx">
+        </label><br><br>
+
+        <input type="submit" value="Apply Now">
+    </form>
+</section>
+
+<hr>
+
+<!-- Task 8: Embedded YouTube Video & Map -->
+<h2>Task 8: Video & Map</h2>
+<section>
+    <h3>Featured Video</h3>
+    <iframe width="420" height="236"
+        src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+        title="YouTube video"></iframe>
+</section>
+
+<section>
+    <h3>City Map</h3>
+    <iframe width="420" height="280"
+        src="https://www.google.com/maps?q=Osaka&output=embed"
+        title="Map"></iframe>
+</section>
+
+<hr>
+
+<footer>
+    <p>End of Task Day 7</p>
+</footer>
+
+</body>
+</html>
